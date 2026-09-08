@@ -42,13 +42,26 @@ Não trate os primitivos a observar nem a "possível camada" como diagnóstico d
 
 ## Registrar a decisão
 
-Após a pessoa decidir, atualize somente a fricção correspondente com a escolha, o raciocínio e, quando houver, o experimento ou critério de acompanhamento. Uma decisão pode resultar em:
+Após a pessoa decidir, atualize a seção `## Governança` da fricção correspondente com data, encaminhamento, estado resultante, primitivos observados, raciocínio, ação ou experimento confirmado e próxima revisão. Uma decisão pode resultar em:
 
 - correção de tool ou configuração;
 - criação, revisão ou descarte de uma skill;
 - mudança de contexto, decisão, propósito ou mandato;
 - experimento limitado;
 - monitoramento, aceitação consciente ou descarte.
+
+Use este mapa de estados:
+
+| Encaminhamento escolhido | Estado resultante | Como retorna à governança |
+| --- | --- | --- |
+| endereçar agora | aberta | até haver evidência de resolução ou novo encaminhamento |
+| planejar | planejada | na data/condição registrada para revisão |
+| executar um experimento | monitorando | com base no critério e na data de acompanhamento |
+| monitorar | monitorando | quando houver novo sinal ou na data de revisão |
+| aceitar conscientemente | aceita | somente se a pessoa pedir nova revisão |
+| descartar | descartada | não retorna, salvo reabertura explícita |
+
+Use `resolvida` somente quando o critério de resolução registrado na fricção tiver evidência suficiente. Não o use como sinônimo de "já existe um plano".
 
 Não altere `AGENTS.md`, contexto, skills, tools, tarefas, estados externos ou configurações por conta própria. Primeiro peça confirmação explícita para a ação específica. O resultado da governança é uma recomendação e um histórico de julgamento, não uma execução automática.
 

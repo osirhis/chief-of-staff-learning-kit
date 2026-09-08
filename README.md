@@ -17,6 +17,12 @@ Os dados ficam no diretório local de cada pessoa, em `friccoes/`. Este projeto 
 - Governança acontece sob demanda.
 - Jurisprudência é o histórico revisável das decisões já tomadas, preservado inicialmente na própria fricção.
 
+## Estados da fricção
+
+`aberta`, `planejada`, `monitorando`, `resolvida`, `aceita` ou `descartada`.
+
+Cada sessão de governança registra o encaminhamento, os primitivos observados, o raciocínio, o estado resultante e, quando fizer sentido, uma condição ou data de revisão. Um plano não resolve uma fricção: somente evidência contra o critério de resolução permite marcá-la como `resolvida`.
+
 ## Instalação para teste local
 
 No Codex, adicione a pasta deste repositório como marketplace local e instale o plugin `chief-of-staff-learning-kit`. Depois, em um projeto de teste, peça ao CoS para registrar uma fricção e, em seguida, chame a governança.

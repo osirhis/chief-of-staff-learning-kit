@@ -23,7 +23,7 @@ Crie um arquivo com nome estável e descritivo em `friccoes/`, por exemplo `2026
 # <título curto>
 
 ## Estado
-aberta | monitorando | resolvida | descartada
+aberta | planejada | monitorando | resolvida | aceita | descartada
 
 ## O que aconteceu
 <fatos observáveis>
@@ -54,6 +54,15 @@ aberta | monitorando | resolvida | descartada
 
 ## Critério de resolução
 <como saberemos que deixou de ser uma fricção>
+
+## Governança
+- Data da última sessão: <data ou ainda não realizada>
+- Encaminhamento: <endereçar agora | planejar | executar experimento | monitorar | aceitar conscientemente | descartar>
+- Estado resultante: <aberta | planejada | monitorando | resolvida | aceita | descartada>
+- Primitivos observados: <zero ou mais, com justificativa curta>
+- Julgamento e raciocínio: <o que foi decidido e por quê>
+- Ação ou experimento confirmado: <se houver; não criar tarefa sem confirmação explícita>
+- Próxima revisão: <data, condição ou não se aplica>
 
 ## Histórico
 - <data>: criada ou atualizada — <resumo da mudança>

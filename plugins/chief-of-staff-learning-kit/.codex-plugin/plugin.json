@@ -1,0 +1,18 @@
+{
+  "name": "chief-of-staff-learning-kit",
+  "version": "0.1.0",
+  "description": "Kit piloto para registrar fricções e conduzir governança no Chief of Staff pessoal.",
+  "author": {
+    "name": "Lucas Rocha"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Chief Of Staff Learning Kit",
+    "shortDescription": "Registre fricções e faça governança sob demanda.",
+    "longDescription": "Kit piloto para registrar fricções locais e conduzir uma governança sob demanda, mantendo decisões humanas no centro.",
+    "developerName": "Lucas Rocha",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Quero registrar uma fricção ou revisar as fricções do meu Chief of Staff."
+  }
+}

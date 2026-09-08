@@ -1,0 +1,20 @@
+{
+  "name": "chief-of-staff-learning",
+  "interface": {
+    "displayName": "Chief of Staff Learning"
+  },
+  "plugins": [
+    {
+      "name": "chief-of-staff-learning-kit",
+      "source": {
+        "source": "local",
+        "path": "./plugins/chief-of-staff-learning-kit"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

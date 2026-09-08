@@ -42,6 +42,10 @@ aberta | monitorando | resolvida | descartada
 - Impacto: baixo | médio | alto
 - Recorrência: isolada | ocasional | recorrente
 
+## Primitivos a observar na correção
+- <zero ou mais entre: propósito, contexto, skill, tool, decisão>
+- <por que cada primitivo pode estar contribuindo; trata-se de uma hipótese, não de diagnóstico definitivo>
+
 ## Workaround e tentativas anteriores
 - <o que permitiu seguir trabalhando, se houver>
 
@@ -60,6 +64,7 @@ aberta | monitorando | resolvida | descartada
 - Registre um resumo e uma referência para o dado real; não copie conteúdo pessoal, credenciais ou informação sensível sem necessidade concreta para compreender a fricção.
 - Preserve os registros na máquina e no projeto da própria pessoa. Não centralize nem envie conteúdo a serviços externos.
 - Não crie tarefas, mude o `AGENTS.md`, altere contexto, ajuste uma skill ou execute uma correção. Essas são possibilidades a avaliar em governança.
+- Não force uma fricção a caber em um único primitivo. Uma mesma fricção pode resultar da interação entre dois ou mais deles.
 
 ## Ao concluir
 

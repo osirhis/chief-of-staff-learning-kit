@@ -12,6 +12,7 @@ Os dados ficam no diretório local de cada pessoa, em `friccoes/`. Este projeto 
 ## Princípios do piloto
 
 - Uma fricção pode ter resoluções diferentes: tool, configuração, skill, contexto, decisão, propósito/mandato, experimento ou nenhuma mudança.
+- A governança indica os primitivos que provavelmente precisam ser observados na correção. Uma fricção pode envolver vários primitivos; a indicação não é um diagnóstico fechado.
 - Novo sintoma de problema conhecido atualiza a fricção canônica; não cria duplicata.
 - Governança acontece sob demanda.
 - Jurisprudência é o histórico revisável das decisões já tomadas, preservado inicialmente na própria fricção.

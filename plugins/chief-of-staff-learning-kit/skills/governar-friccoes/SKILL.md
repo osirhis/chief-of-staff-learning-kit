@@ -13,6 +13,7 @@ Governança é um ritual sob demanda de reflexão e julgamento. Ela transforma f
 2. Leia apenas o contexto necessário do Chief of Staff: mandato, projetos e pendências que ajudem a entender as fricções selecionadas. Não modifique esses arquivos.
 3. Verifique possíveis duplicatas ou sintomas de uma mesma causa. Proponha consolidação, mas só altere registros canônicos após confirmação humana.
 4. Priorize de forma explicável, sem falsa precisão, considerando: impacto, recorrência, urgência, risco, governabilidade/esforço e potencial de eliminar outras fricções.
+5. Para cada fricção, indique os primitivos que provavelmente devem ser observados na correção: propósito, contexto, skill, tool e decisão. A indicação é aberta e multivalorada: não exija uma causa única, nem trate a lista como diagnóstico definitivo.
 
 ## Pauta de decisão
 
@@ -32,11 +33,12 @@ Para cada fricção priorizada, apresente:
   5. aceitar conscientemente
   6. descartar
 - Recomendação inicial: <opção e justificativa>
+- Primitivos a observar: <zero ou mais entre propósito, contexto, skill, tool e decisão; com justificativa breve para cada>
 - Possível camada de correção: tool, configuração, skill, contexto, decisão, propósito/mandato ou outra
 - Pergunta de julgamento: <pergunta curta para a pessoa>
 ```
 
-Não trate a "possível camada" como diagnóstico definitivo. Uma fricção pode exigir mais de uma intervenção ou nenhuma mudança no Chief of Staff.
+Não trate os primitivos a observar nem a "possível camada" como diagnóstico definitivo. Uma fricção pode derivar da interação entre vários primitivos, exigir mais de uma intervenção ou não demandar nenhuma mudança no Chief of Staff.
 
 ## Registrar a decisão
 

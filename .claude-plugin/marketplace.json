@@ -1,0 +1,15 @@
+{
+  "name": "chief-of-staff-learning",
+  "description": "Kit de aprendizado do Chief of Staff, das mentorias de Lucas Rocha.",
+  "owner": {
+    "name": "Lucas Rocha"
+  },
+  "plugins": [
+    {
+      "name": "chief-of-staff-learning-kit",
+      "source": "./plugins/chief-of-staff-learning-kit",
+      "description": "Fricções, governança, diário de bordo e dreaming semanal para o seu Chief of Staff.",
+      "category": "productivity"
+    }
+  ]
+}

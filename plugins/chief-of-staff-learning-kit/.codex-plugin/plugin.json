@@ -1,18 +1,18 @@
 {
   "name": "chief-of-staff-learning-kit",
-  "version": "0.1.0+codex.20260908191157",
-  "description": "Kit piloto para registrar fric\u00e7\u00f5es e conduzir governan\u00e7a no Chief of Staff pessoal.",
+  "version": "0.2.0",
+  "description": "Kit para o Chief of Staff aprender com o uso: fricções, governança, diário de bordo e dreaming semanal.",
   "author": {
     "name": "Lucas Rocha"
   },
   "skills": "./skills/",
   "interface": {
     "displayName": "Chief Of Staff Learning Kit",
-    "shortDescription": "Registre fric\u00e7\u00f5es e fa\u00e7a governan\u00e7a sob demanda.",
-    "longDescription": "Kit piloto para registrar fric\u00e7\u00f5es locais e conduzir uma governan\u00e7a sob demanda, mantendo decis\u00f5es humanas no centro.",
+    "shortDescription": "Fricções, governança, diário e dreaming para o seu Chief of Staff.",
+    "longDescription": "Quatro hábitos para o Chief of Staff pessoal evoluir com o uso, preservando o julgamento humano: registrar fricções, governá-las, escrever o diário de bordo e sonhar toda semana. Comece pela skill configurar-aprendizado.",
     "developerName": "Lucas Rocha",
     "category": "Productivity",
     "capabilities": [],
-    "defaultPrompt": "Quero registrar uma fric\u00e7\u00e3o ou revisar as fric\u00e7\u00f5es do meu Chief of Staff."
+    "defaultPrompt": "Configure o aprendizado do meu Chief of Staff."
   }
 }

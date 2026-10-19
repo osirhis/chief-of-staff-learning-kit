@@ -1,0 +1,18 @@
+{
+  "name": "chief-of-staff-learning-kit",
+  "displayName": "Chief of Staff Learning Kit",
+  "version": "0.2.0",
+  "description": "Kit para o Chief of Staff aprender com o uso: fricções, governança, diário de bordo e dreaming semanal.",
+  "author": {
+    "name": "Lucas Rocha"
+  },
+  "homepage": "https://github.com/osirhis/chief-of-staff-learning-kit",
+  "repository": "https://github.com/osirhis/chief-of-staff-learning-kit",
+  "keywords": [
+    "chief-of-staff",
+    "friccoes",
+    "governanca",
+    "diario",
+    "dreaming"
+  ]
+}

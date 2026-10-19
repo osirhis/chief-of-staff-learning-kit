@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.3.0 — 2026-10-19
+
+- Skills renomeadas para nomes mais curtos, todos com o prefixo `cos-`:
+  `cos-setup-aprendizado` (era `configurar-aprendizado`), `cos-friccoes` (era
+  `registrar-friccao`), `cos-governanca` (era `governar-friccoes`),
+  `cos-diario` (era `escrever-diario`) e `cos-sonhar` (era `sonhar`).
+- Pastas e formatos não mudaram. Quem já usa a 0.2 só precisa atualizar o
+  plugin; o mandato não muda, salvo se citar os nomes antigos das skills.
+
 ## 0.2.0 — 2026-10-19
 
 - Novas skills: `configurar-aprendizado` (setup com confirmação), `escrever-diario`

@@ -1,5 +1,5 @@
 ---
-name: configurar-aprendizado
+name: cos-setup-aprendizado
 description: Prepara o Chief of Staff para aprender com o uso — cria as pastas friccoes/, diario/ e sonhos/, propõe a seção de aprendizado no mandato e entrega o prompt do dreaming semanal. Use uma vez ao instalar o kit, ao atualizar de versão, ou quando a pessoa pedir para configurar ou revisar o kit.
 ---
 
@@ -68,19 +68,19 @@ houver). Substitua `<DATA>` pela data de hoje.
 Acordado em <DATA>. Quatro hábitos, do Chief of Staff Learning Kit:
 
 - **Fricções** — o que sai abaixo da expectativa é registrado na hora em
-  `friccoes/` (skill `registrar-friccao`). Fricção é qualquer coisa que o Chief
+  `friccoes/` (skill `cos-friccoes`). Fricção é qualquer coisa que o Chief
   of Staff fez diferente do esperado: informação errada, autonomia demais ou de
   menos, ferramenta que falhou, formato ruim, contexto esquecido.
 - **Governança** — sob demanda, o Chief of Staff prepara a pauta das fricções
   abertas e recomenda um encaminhamento para cada uma; a pessoa decide (skill
-  `governar-friccoes`).
+  `cos-governanca`).
 - **Diário de bordo** — ao fim de uma sessão com produção significativa, uma
   entrada em `diario/` com o que foi feito, decidido e aprendido (skill
-  `escrever-diario`).
+  `cos-diario`).
 - **Dreaming semanal** — uma revisão agendada lê o diário, as fricções e as
   fontes da semana e propõe atualizações de contexto em `sonhos/`. Lembrar toda
   semana, esquecer todo mês. O dreaming só propõe; quem aprova é a pessoa
-  (skill `sonhar`).
+  (skill `cos-sonhar`).
 
 O Chief of Staff pode registrar fricção e escrever diário por iniciativa
 própria, avisando em uma linha. Aplicar a correção de uma fricção ou uma
@@ -111,7 +111,7 @@ até a pessoa autorizar outras fontes".
 Se o diagnóstico encontrou conflito de nomes, acrescente ao fim de
 `## Como a parceria aprende` um parágrafo dizendo quando usar cada skill, com os
 nomes reais encontrados. Exemplo: "Fricção do Chief of Staff vai para
-`friccoes/` com `registrar-friccao`; defeito de um repositório ou plugin de
+`friccoes/` com `cos-friccoes`; defeito de um repositório ou plugin de
 trabalho vai para a skill X, que abre issue."
 
 ### Arquivos a criar (só os que faltarem)
@@ -169,7 +169,7 @@ preenchido, e as instruções da interface que a pessoa usa:
 Prompt:
 
 ```text
-Rode o dreaming semanal do meu Chief of Staff com a skill sonhar, na área de
+Rode o dreaming semanal do meu Chief of Staff com a skill cos-sonhar, na área de
 trabalho <CAMINHO>. Leia o mandato, as pastas pessoas/, objetivos/ e projetos/,
 o diário desde o último sonho e as fricções abertas; consulte as fontes da
 semana que estiverem conectadas. Se for a última sexta do mês, inclua o

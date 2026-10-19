@@ -1,6 +1,6 @@
 {
   "name": "chief-of-staff-learning-kit",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Kit para o Chief of Staff aprender com o uso: fricções, governança, diário de bordo e dreaming semanal.",
   "author": {
     "name": "Lucas Rocha"
@@ -9,7 +9,7 @@
   "interface": {
     "displayName": "Chief Of Staff Learning Kit",
     "shortDescription": "Fricções, governança, diário e dreaming para o seu Chief of Staff.",
-    "longDescription": "Quatro hábitos para o Chief of Staff pessoal evoluir com o uso, preservando o julgamento humano: registrar fricções, governá-las, escrever o diário de bordo e sonhar toda semana. Comece pela skill configurar-aprendizado.",
+    "longDescription": "Quatro hábitos para o Chief of Staff pessoal evoluir com o uso, preservando o julgamento humano: registrar fricções, governá-las, escrever o diário de bordo e sonhar toda semana. Comece pela skill cos-setup-aprendizado.",
     "developerName": "Lucas Rocha",
     "category": "Productivity",
     "capabilities": [],

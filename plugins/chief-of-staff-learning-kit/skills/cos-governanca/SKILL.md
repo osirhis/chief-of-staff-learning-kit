@@ -1,5 +1,5 @@
 ---
-name: governar-friccoes
+name: cos-governanca
 description: Conduz a governança das fricções do Chief of Staff — prepara a pauta das fricções abertas com recomendações, registra o que a pessoa decidir e transforma decisões repetidas em jurisprudência. Use quando a pessoa pedir governança, revisão das fricções, ou quiser decidir o que fazer com elas.
 ---
 
@@ -76,7 +76,7 @@ Jurisprudência é o histórico de decisões que orienta casos parecidos.
   frente, pode fazer X sem me perguntar", "nesse caso, sempre pergunte"),
   proponha o texto da regra e, com a confirmação, acrescente-o em
   `## Jurisprudência da parceria` no mandato, citando a fricção de origem.
-- Se o mandato ainda não tiver essa seção, sugira rodar `configurar-aprendizado`
+- Se o mandato ainda não tiver essa seção, sugira rodar `cos-setup-aprendizado`
   ou peça para criá-la.
 - Quando a mesma decisão aparecer pela segunda ou terceira vez em fricções
   diferentes, proponha transformá-la em regra. Até a pessoa aprovar, é só

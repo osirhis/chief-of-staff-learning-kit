@@ -1,5 +1,5 @@
 ---
-name: registrar-friccao
+name: cos-friccoes
 description: Registra ou atualiza uma fricção do Chief of Staff quando algo não sai como esperado — erro, autonomia demais ou de menos, ferramenta que falhou, formato ruim, contexto esquecido. Use quando a pessoa disser fricção, quando ela corrigir o Chief of Staff, ou quando o próprio Chief of Staff perceber que errou.
 ---
 
@@ -40,7 +40,7 @@ Esta skill registra o que **o Chief of Staff** fez diferente do esperado, na
 
 1. Localize a área de trabalho do Chief of Staff e a pasta `friccoes/`. Se ela
    não existir, crie `friccoes/` e `friccoes/index.md` (ou sugira rodar
-   `configurar-aprendizado`).
+   `cos-setup-aprendizado`).
 2. Leia o índice e as fricções em estado `aberta`, `planejada` ou `monitorando`.
 3. Se o relato for um novo sintoma de um problema já registrado, **atualize a
    fricção existente** em vez de criar outra. Não deduplique só por palavras
@@ -119,4 +119,4 @@ Atualize `friccoes/index.md` (título com link, estado, impacto, recorrência,
 
 - se criou ou atualizou uma fricção, e qual arquivo;
 - se encontrou possível duplicata;
-- que o próximo passo, quando quiser, é a governança (`governar-friccoes`).
+- que o próximo passo, quando quiser, é a governança (`cos-governanca`).

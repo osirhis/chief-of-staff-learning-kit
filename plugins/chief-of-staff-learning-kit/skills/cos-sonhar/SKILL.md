@@ -1,5 +1,5 @@
 ---
-name: sonhar
+name: cos-sonhar
 description: Roda o dreaming do Chief of Staff — revisão semanal que lê o diário, as fricções e as fontes da semana e propõe atualizações de contexto em sonhos/; na última sexta do mês propõe também o que esquecer. Também revisa com a pessoa as propostas de um sonho já rodado. Use quando a pessoa pedir o dreaming, o sonho ou a revisão semanal de contexto.
 ---
 
@@ -101,4 +101,4 @@ Quando a pessoa abrir um sonho para revisar ("vamos revisar o sonho"):
    parceria` no mandato, citando o sonho de origem. É assim que a autonomia
    cresce.
 6. Fricção apontada pelo sonho que a pessoa confirmar vira registro com
-   `registrar-friccao`.
+   `cos-friccoes`.

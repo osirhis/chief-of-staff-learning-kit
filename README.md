@@ -6,11 +6,11 @@ Decisions).
 
 | Skill | O que faz |
 |---|---|
-| `configurar-aprendizado` | Prepara a área de trabalho: cria `friccoes/`, `diario/` e `sonhos/`, propõe a seção de aprendizado no seu mandato e entrega o prompt do dreaming semanal. **Comece por aqui.** |
-| `registrar-friccao` | Registra o que saiu diferente do esperado, na hora, com o contexto da conversa. |
-| `governar-friccoes` | Prepara a pauta das fricções abertas com recomendações; você decide o encaminhamento de cada uma. Decisões repetidas viram jurisprudência no mandato. |
-| `escrever-diario` | Ao fim de uma sessão com produção significativa, registra o que foi feito, decidido e aprendido. |
-| `sonhar` | Dreaming semanal: lê o diário, as fricções e as fontes da semana e propõe atualizações de contexto. Lembra toda semana, esquece todo mês. Só propõe; quem aprova é você. |
+| `cos-setup-aprendizado` | Prepara a área de trabalho: cria `friccoes/`, `diario/` e `sonhos/`, propõe a seção de aprendizado no seu mandato e entrega o prompt do dreaming semanal. **Comece por aqui.** |
+| `cos-friccoes` | Registra o que saiu diferente do esperado, na hora, com o contexto da conversa. |
+| `cos-governanca` | Prepara a pauta das fricções abertas com recomendações; você decide o encaminhamento de cada uma. Decisões repetidas viram jurisprudência no mandato. |
+| `cos-diario` | Ao fim de uma sessão com produção significativa, registra o que foi feito, decidido e aprendido. |
+| `cos-sonhar` | Dreaming semanal: lê o diário, as fricções e as fontes da semana e propõe atualizações de contexto. Lembra toda semana, esquece todo mês. Só propõe; quem aprova é você. |
 
 ## Como os hábitos se encaixam
 
@@ -65,7 +65,7 @@ prompt do dreaming para você agendar em **Agendado** (ChatGPT) ou
 ## Vindo da versão 0.1
 
 Suas fricções em `friccoes/` são preservadas: o formato e os estados são os
-mesmos. Depois de atualizar o plugin, rode `configurar-aprendizado` uma vez para
+mesmos. Depois de atualizar o plugin, rode `cos-setup-aprendizado` uma vez para
 criar `diario/` e `sonhos/` e acrescentar a seção de aprendizado ao mandato.
 
 ## Princípios

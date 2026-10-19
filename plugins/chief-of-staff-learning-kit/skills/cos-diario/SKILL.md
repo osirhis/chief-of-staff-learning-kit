@@ -1,5 +1,5 @@
 ---
-name: escrever-diario
+name: cos-diario
 description: Escreve o diário de bordo de uma sessão de trabalho com o Chief of Staff — o que foi produzido, decidido, mudado e aprendido — para alimentar o dreaming semanal. Use quando a pessoa pedir o diário ou para fechar a sessão, e ofereça ao fim de uma sessão com produção significativa.
 ---
 
@@ -19,7 +19,7 @@ fontes externas e perde o que foi decidido e aprendido nas conversas.
 
 Um arquivo por entrada em `diario/AAAA-MM-DD-descricao-curta.md`, na área de
 trabalho do Chief of Staff. Se `diario/` não existir, crie (ou sugira rodar
-`configurar-aprendizado`). Mais de uma entrada no mesmo dia é normal.
+`cos-setup-aprendizado`). Mais de uma entrada no mesmo dia é normal.
 
 Não edite entradas de sessões anteriores. Uma correção vira entrada nova que
 aponta para a anterior.
@@ -64,7 +64,7 @@ Use as seções que fizerem sentido; **Progresso** é obrigatória.
 - Não invente evidência, horário ou identificador.
 - Respeite o que o mandato diz sobre informação sensível.
 - Se a sessão revelou uma fricção ainda não registrada, registre-a com
-  `registrar-friccao` e coloque o link no diário.
+  `cos-friccoes` e coloque o link no diário.
 - O diário não substitui atualizar pessoas, objetivos e projetos durante a
   conversa, quando o mandato pede isso.
 
